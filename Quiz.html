@@ -1,0 +1,36 @@
+<html>
+ <head>
+   <title> Quiz </title>
+   <link href="q.css" type="text/css" rel="stylesheet" />
+ </head>
+ <body onload="setques()">
+   <div class="head">
+     <h1 id="hd">Quiz</h1>
+   </div>
+   <div class="main">
+     <p id="p"></p>
+     <div class="body">
+       <div id="q">
+         <div class="ques" id="ques"></div>
+         <div class="opt">
+           <input type="radio" value="A" name="ques1" class="q" id="fir" />
+           <label for="fir" id="f1"></label><br>
+           <input type="radio" value="B" name="ques1" class="q" id="sec" />
+           <label for="sec" id="f2"></label><br>
+           <input type="radio" value="C" name="ques1" class="q" id="thi" />
+           <label for="thi" id="f3"></label><br>
+           <input type="radio" value="D" name="ques1" class="q" id="four"/>
+           <label for="four" id="f4"></label><br>
+           <p id="res"></p>
+         </div>
+       </div>
+      <div class="s">
+       <button id="sub" onclick="chk()">Submit</button>
+       <button id="sub1" onclick="chk()">Next</button>
+       <button id="sub2" onclick="chk()">Restart</button>
+      </div>
+    </div>
+ </div>
+ <script src="qz.js"></script>
+ </body>
+</html>
