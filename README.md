@@ -4,8 +4,8 @@ A simple and interactive quiz module built using **HTML**, **CSS**, and **JavaSc
 
 ##  Features
 
-- Two-player mode (Player X vs Player O)
-- Win and draw detection
-- Reset and play again button
-- Responsive layout for desktop and mobile
+- Multiple-choice quiz questions
+- Score calculation at the end
+- Instant feedback after quiz completion
+- Simple and responsive UI
 - ---
